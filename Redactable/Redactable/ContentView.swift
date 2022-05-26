@@ -90,7 +90,7 @@ struct ContentView: View {
 
                     HStack(spacing: -20) {
                         ForEach(1 ..< 5) { item in
-                            Image("cedric\(item)")
+                            Image("image\(item)")
                                 .resizable()
                                 .frame(width: 40, height: 40)
                                 .clipShape(Circle())
